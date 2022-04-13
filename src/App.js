@@ -8,7 +8,7 @@ export default function App() {
     <main className="App-main">
       <Randomize />
     </main>
-    <footer className='mt-auto'>
+    <div className='fixed-bottom ms-5 md'>
     Romina Cristaldo
         <a
           href="https://github.com/RoCristal/Horror-movies"
@@ -19,7 +19,10 @@ export default function App() {
           Github
         </a>
 
-    </footer>
+    </div>
+    <footer className='mt-auto'>
+    Open source code
+    </footer >
 
 
 
