@@ -1,11 +1,15 @@
 import "./App.css";
+import Randomize from "./Randomize";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">App</header>
-      <div>
-        Romina Cristaldo
+     <div className="container d-flex flex-column min-vh-100">
+    <main className="App-main">
+      <Randomize />
+    </main>
+    <footer className='mt-auto'>
+    Romina Cristaldo
         <a
           href="https://github.com/RoCristal/Horror-movies"
           target="_blank"
@@ -14,7 +18,13 @@ export default function App() {
           {" "}
           Github
         </a>
-      </div>
+
+    </footer>
+
+
+
+      
+     </div>
     </div>
   );
 }
